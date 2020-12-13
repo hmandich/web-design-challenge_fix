@@ -36,7 +36,10 @@ text{
 
 li {background-color: #0BADA6;
 }
-
+.table{
+    font-size: 15px; 
+    border-top-color: white !important; 
+}
 a:link {
     color: #010000;
     background-color: transparent;
