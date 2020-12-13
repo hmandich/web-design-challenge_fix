@@ -21,7 +21,7 @@ h3{
 .navbar{
     max-height: 57px; 
     background-color: white; 
-    font-size: 15px; 
+    font-size: 15px;
 }
 
 text{
@@ -67,17 +67,4 @@ a:link {
 
   .col-md-8{background-color: white}
 
-  #nav-select{
-      visibility: hidden;
-  }
 
-  @media(max-width-600px){
-    .navbar{
-        visibility: hidden;
-    }  
-    #nav-select{
-        visibility: visible;
-        margin-left: 0%;
-    }
-
-  }
