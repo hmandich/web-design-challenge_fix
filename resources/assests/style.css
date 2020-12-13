@@ -9,6 +9,7 @@ h3{
     color: #0BADA6;
     padding-top: 20px;
     margin-right:10px;
+    font-size: 40px; 
 }
 .title{
     max-height: 57px; 
@@ -24,6 +25,11 @@ h3{
 }
 
 text{
+    background-color: white;  
+    padding-top: 20px;
+}
+
+#backdrop{
     background-color: white;  
     padding-top: 20px;
 }
@@ -49,6 +55,8 @@ a:link {
     -ms-ime-mode: border-box;
     border: 10px solid transparent;
     background-clip:padding-box;
+  }
+  .col-md-6{-moz-box-align: initial;
   }
 
   .col-md-4{background-color: white;
