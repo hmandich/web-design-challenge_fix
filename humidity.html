@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Resources/assests/style.css">
+    
+    <title>Web Visualization Dashboard (Latitude)</title>
+</head>
+<body style="background-color: lightgray">
+    
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand logo"  style="background-color: #0BADA6; color: white;" href="index.html">Latitude</a>
+        </div>
+
+        <div id = "text" class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-light" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <li><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-light"><a href="comparison.html"> Comparison</a></button>
+            <button type="button" class="btn btn-light"><a href="data.html">Data</a></button>
+          </div>                                         
+        </div>      
+    </nav>
+
+  </div>
+  <!-- Content Section -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-12">
+        <!-- Left box  -->
+        <div class="box">
+          <h3 class="title">Humidity</h3>
+          <hr>
+          <img src="Resources/assests/Fig2.png" alt="Humidity Graph">
+          <p>Humidity does not show a strong correlation to latitude. The visualization shows a great variety of
+            humidity percentages at different latitudes. Therefore, we cannot conclude that there is a conclusive
+            pattern between humidity and latitude.</p>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12">
+        <!-- Right Box -->
+        <div class="box">
+          <h5 class="title">Visualizations</h5>
+          <hr>
+
+
+          <div class="container">
+            <div class="row" style="padding-bottom: 30px;">
+              <div class="col-4">
+                <a href="maxtemp.html">
+                  <img class="panel" src="Resources/assests/Fig1.png" alt="MaxTemperature Graph">
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="humidity.html">
+                  <img class="panel active" src="Resources/assests/Fig2.png" alt="Humidity Graph">
+                </a>
+              </div>
+            </div>
+
+            <div class="row" style="padding-bottom: 30px;">
+              <div class="col-4">
+                <a href="cloudiness.html">
+                  <img class="panel" src="Resources/assests/Fig3.png" alt="Cloudiness Graph">
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="windspeed.html">
+                  <img class="panel" src="Resources/assests/Fig4.png" alt="WindSpeed Graph">
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+
+</html>
+    
